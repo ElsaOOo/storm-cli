@@ -6,6 +6,12 @@
   "bin": {
     "storm": "./bin/www"
   },
+  "repository": "https://github.com/ElsaOOo/storm-cli.git",
+  "keywords": [
+    "cli",
+    "react",
+    "typescript"
+  ],
   "scripts": {
     "compile": "babel src -d dist --extensions '.ts' ",
     "watch": "npm run compile -- --watch",
